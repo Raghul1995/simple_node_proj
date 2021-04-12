@@ -33,7 +33,7 @@ function home(request, response) {
   
 }
 
-//Handle HTTP route GET /:username i.e. /chalkers
+//Handle HTTP route GET /:username i.e. /chalkers//
 function user(request, response) {
   //if url == "/...."
   var username = request.url.replace("/", "");
